@@ -2,14 +2,14 @@ import { Ionicons } from "@expo/vector-icons";
 import { Text } from "@react-navigation/elements";
 import { useState } from "react";
 import {
-    FlatList,
-    Image,
-    KeyboardAvoidingView,
-    Platform,
-    StyleSheet,
-    TextInput,
-    TouchableOpacity,
-    View,
+  FlatList,
+  Image,
+  KeyboardAvoidingView,
+  Platform,
+  StyleSheet,
+  TextInput,
+  TouchableOpacity,
+  View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
@@ -84,7 +84,7 @@ export default function ChatScreen({
     }
   };
 
-  const renderMessage = ({ item }) => (
+  const renderMessage = ({ item }: { item: any }) => (
     <View
       style={[
         styles.messageContainer,

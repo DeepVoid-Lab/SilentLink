@@ -80,5 +80,6 @@ app-example
 google-services.json
 app/firebaseConfig.ts
 
-
 app-example
+
+.env

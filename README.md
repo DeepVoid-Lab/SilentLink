@@ -75,9 +75,9 @@ npx react-native run-ios
 
 ## 📌 Roadmap
 - [x] End-to-end encryption  
-- [ ] Group chats & media sharing  
-- [ ] Push notifications  
-- [ ] Custom themes  
+- [X] Group chats & media sharing  
+- [X] Push notifications  
+- [X] Custom themes  
 
 ---
 
